@@ -1,0 +1,149 @@
+.u-section-1 .u-sheet-1 {
+  min-height: 227px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 20px auto 0;
+}
+
+.u-section-1 .u-btn-1 {
+  --radius: 50px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  letter-spacing: 1px;
+  margin: 30px auto 60px;
+} .u-section-2 {
+  background-position: 50% 50%, 50% 50%;
+  background-repeat: no-repeat, no-repeat;
+  background-image: url('images/photo-1601599561213-832382fd07ba.jpeg'), linear-gradient(to bottom, rgba(229, 229, 229, 1), rgba(229, 229, 229, 1));
+  background-size: cover, cover;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 670px;
+}
+
+.u-section-2 .u-calendar-1 {
+  width: 589px;
+  --radius: 10px;
+  --num-padding-vertical: 17px;
+  --num-hover-color: #d9d9d9;
+  --num-text-hover-default-color: #111111;
+  --num-active-color: #808080;
+  --num-text-active-default-color: #ffffff;
+  --num-color: #ffffff;
+  --num-text-default-color: #111111;
+  --num-border-active-color: #ffffff;
+  --num-border-current-color: #ffffff;
+  --days-padding-vertical: 10px;
+  --days-font-size: 15px;
+  --days-text-transform: none;
+  --year-month-font-size: 24px;
+  --year-month-font-weight: 700;
+  --year-month-text-color: #4d4d4d;
+  --year-month-padding-vertical: 20px;
+  --year-month-padding-horizontal: 20px;
+  --num-current-color: #808080;
+  --num-text-current-default-color: #ffffff;
+  --num-font-weight: 500;
+  --num-text-transform: none;
+  --num-font-size: 20px;
+  --days-text-color: #808080;
+  background-image: none;
+  --year-month-border-style: solid;
+  --year-month-border: 2px;
+  --year-month-border-left: 0;
+  --year-month-border-top: 0;
+  --year-month-border-right: 0;
+  --year-month-border-color: #d9d9d9;
+  --days-bold: bold;
+  --days-letter-spacing: 1px;
+  box-shadow: 0px 0px 37px 0px rgba(128,128,128,0.66);
+  --num-border-radius: 50px;
+  --num-border-style: solid;
+  --num-border-color: #ffffff;
+  --num-border: 2px;
+  --num-border-hover-color: #ffffff;
+  margin: 60px auto;
+  padding: 35px 30px;
+}
+
+.u-section-2 .u-calendar-time-slot-1 {
+  border-style: solid;
+  --radius: 7px;
+  padding: 7px 20px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 552px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 423px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 317px;
+  }
+
+  .u-section-2 .u-calendar-1 {
+    width: 540px;
+    --num-padding-vertical: 15px;
+    --num-font-size: 18px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 200px;
+  }
+
+  .u-section-2 .u-calendar-1 {
+    --num-padding-vertical: 11px;
+    --year-month-font-size: 20px;
+    --num-font-size: 14px;
+    margin-top: 58px;
+    margin-right: initial;
+    margin-left: initial;
+    width: auto;
+  }
+}.u-section-3 .u-sheet-1 {
+  min-height: 464px;
+}
+
+.u-section-3 .u-table-1 {
+  margin: 95px auto 60px;
+}
+
+.u-section-3 .u-table-entity-1 {
+  min-height: 100px;
+}
+
+.u-section-3 .u-table-header-1 {
+  background-image: none;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.u-section-3 .u-table-footer-1 {
+  font-weight: 700;
+}
+
+@media (max-width: 1199px) {
+  .u-section-3 .u-table-1 {
+    margin-right: initial;
+    margin-left: initial;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-3 .u-table-header-1 {
+    font-size: 1rem;
+  }
+}
