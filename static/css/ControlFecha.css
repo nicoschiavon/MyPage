@@ -16,7 +16,7 @@
 } .u-section-2 {
   background-position: 50% 50%, 50% 50%;
   background-repeat: no-repeat, no-repeat;
-  background-image: url('images/photo-1601599561213-832382fd07ba.jpeg'), linear-gradient(to bottom, rgba(229, 229, 229, 1), rgba(229, 229, 229, 1));
+  background-image: url('../img/photo-1601599561213-832382fd07ba.jpeg'), linear-gradient(to bottom, rgba(229, 229, 229, 1), rgba(229, 229, 229, 1));
   background-size: cover, cover;
 }
 

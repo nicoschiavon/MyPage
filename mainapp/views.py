@@ -6,3 +6,9 @@ def index(request):
 
 def acerca(request):
     return render(request, 'Acerca-de.html')
+
+def proyectos(request):
+    return render(request, 'Proyectos.html')
+
+def controlFecha(request):
+    return render(request, 'ControlFecha.html')

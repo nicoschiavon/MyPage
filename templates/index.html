@@ -1,5 +1,9 @@
 {% extends "base.html" %}
+{% load static %}
+{% block extra_css %}
+<link rel="stylesheet" href={% static "css/index.css" %} media="screen">
 
+{% endblock extra_css %}
   {% block content %}
   
   <section class="u-align-left-sm u-align-left-xs u-clearfix u-grey-10 u-section-1" id="carousel_e39f">
